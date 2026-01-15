@@ -14,8 +14,8 @@ public class Informe {
             String ciudad, double[] misNotas,
             double promedio, String empresa, String direccion) {
         String lista = "";
-        for (int i = 0; i < misNotas.length;i++){
-        lista = String.format("%s%s\n", lista, misNotas[i]);
+        for (int i = 0; i < misNotas.length; i++) {
+            lista = String.format("%s%s\n", lista, misNotas[i]);
         }
         System.out.printf("\n----------------------\n"
                 + "Los datos ingresados son:\n"
